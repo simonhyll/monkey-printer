@@ -200,7 +200,7 @@ dependencies = [
 
 [[package]]
 name = "monkey-printer"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "futures",
  "indicatif",

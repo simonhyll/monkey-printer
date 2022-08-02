@@ -7,7 +7,7 @@ use indicatif::{MultiProgress, ProgressBar, ProgressStyle};
 #[tokio::main]
 async fn main() -> Result<(), ()> {
     if std::env::args().len() < 2 {
-        println!("You didn't the monkeys anything to print 😱");
+        println!("You didn't give the monkeys anything to print 😱");
         return Ok(());
     }
 

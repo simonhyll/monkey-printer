@@ -2,7 +2,7 @@
 name = "monkey-printer"
 description = "With an infinite nr of monkeys you could write Shakespeare"
 license = "MIT"
-version = "0.1.2"
+version = "0.1.3"
 repository = "https://github.com/adaptive-simon/monkey-printer"
 edition = "2021"
 [workspace]
