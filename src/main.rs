@@ -44,7 +44,7 @@ async fn main() -> Result<(), ()> {
                     thread::sleep(Duration::from_millis(5000));
                 } else if i == character as i32 {
                     pb.set_message(format!("They were wrong, this is actually it! #{}", i + 1));
-                    thread::sleep(Duration::from_millis(250));
+                    thread::sleep(Duration::from_millis(1000));
                     pb.finish_and_clear();
                     break;
                 } else {
