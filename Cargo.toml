@@ -1,5 +1,7 @@
 [package]
 name = "monkey-printer"
+description = "With an infinite monkeys you could write Shakespeare"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 [workspace]
